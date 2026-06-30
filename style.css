@@ -1,19 +1,37 @@
 body {
     font-family: Arial, sans-serif;
-    max-width: 900px;
+    max-width: 800px;
     margin: auto;
     padding: 40px;
     line-height: 1.6;
 }
 
 header {
-    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.site-title {
+    margin: 0;
+    font-size: 2rem;
+}
+
+.site-title a {
+    text-decoration: none;
+    color: #000;
+}
+
+nav {
+    display: flex;
+    gap: 30px;
 }
 
 nav a {
-    margin-right: 20px;
     text-decoration: none;
     color: #333;
+    font-size: 1rem;
 }
 
 nav a:hover {
